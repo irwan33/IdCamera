@@ -28,15 +28,12 @@ IdCamera is a small and lightweight Swift framework that allows to caprute id ca
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Irwan' => 'irwan.madness@gmail.com' }
   s.source           = { :git => 'https://github.com/irwan33/IdCamera.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+ 
 
   s.ios.deployment_target = '10.0'
  
 
-  s.source_files = 'Classes/**/*'
-   s.resource_bundles = {
-     'SwiftQRScanner' => ['SwiftQRScanner/Assets/*.png']
-   }
+ 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'CoreGraphics', 'AVFoundation'
