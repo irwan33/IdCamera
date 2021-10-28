@@ -149,8 +149,8 @@ public class QRCodeScannerController: UIViewController, AVCaptureMetadataOutputO
     
     //Creates corner rectagle frame with green coloe(default color)
     func createCornerFrame() {
-        let width: CGFloat = 200.0
-        let height: CGFloat = 200.0
+        let width: CGFloat = 300.0
+        let height: CGFloat = 250.0
         
         let rect = CGRect.init(
             origin: CGPoint.init(
@@ -180,7 +180,7 @@ public class QRCodeScannerController: UIViewController, AVCaptureMetadataOutputO
         
         let noteText = CATextLayer()
         noteText.fontSize = 18.0
-        noteText.string = "Align QR code within frame to scan"
+        noteText.string = ""
         noteText.alignmentMode = CATextLayerAlignmentMode.center
         noteText.contentsScale = UIScreen.main.scale
         noteText.frame = CGRect(x: spaceFactor, y: rect.origin.y + rect.size.height + 30, width: view.frame.size.width - (2.0 * spaceFactor), height: 22)
