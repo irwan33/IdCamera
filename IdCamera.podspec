@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 IdCamera is a small and lightweight Swift framework that allows to caprute id card.
                        DESC
 
-  s.homepage         = 'https://github.com/irwan33'
+  s.homepage         = 'https://github.com/irwan33/IdCamera'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Irwan' => 'irwan.madness@gmail.com' }
